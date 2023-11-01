@@ -1,0 +1,18 @@
+const fetchedItems = [
+    { id: 1, content: "Item 1", isLarge: false },
+    { id: 2, content: "Item 2", isLarge: false },
+    { id: 3, content: "Item 3", isLarge: false },
+    { id: 4, content: "Item 3", isLarge: false },
+    { id: 5, content: "Item 3", isLarge: false },
+    { id: 6, content: "Item 3", isLarge: false },
+    { id: 7, content: "Item 3", isLarge: false },
+    { id: 8, content: "Item 3", isLarge: false },
+    { id: 9, content: "Item 3", isLarge: false },
+    { id: 10, content: "Item 3", isLarge: false },
+    { id: 11, content: "Item 3", isLarge: false },
+    { id: 12, content: "Item 3", isLarge: false },
+    { id: 13, content: "Item 3", isLarge: false },
+    { id: 14, content: "Item 3", isLarge: false },
+    { id: 15, content: "Item 3", isLarge: false },
+    { id: 16, content: "Item 3", isLarge: false },
+  ];
