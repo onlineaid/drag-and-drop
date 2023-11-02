@@ -1,3 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    padding: 20px 10px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.text-btn {
+    color: red;
+    font-size: 16px;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+body {
+    width: 1000px;
+    margin: 0 auto;
+    
+}
+
+.hover:hover{
+    filter: brightness(0.5);
+    transition: 0.3s ease-in;
+    border-radius: 5px;
+}
+
 @media (max-width: 768px) {
     .sortable-grid {
         grid-template-columns: repeat(3, 1fr);
@@ -17,4 +49,13 @@
             /* Change to 1 column on screens with a maximum width of 320px */
         }
     }
+}
+
+
+.hover:hover{
+    filter: brightness(0.7)
+}
+
+.active{
+    filter: brightness(0.9)
 }
